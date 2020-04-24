@@ -1,2 +1,4 @@
-
-
+.title {
+  color: #fff;
+  text-shadow: 2px 2px 10px #ff0000, 5px 5px 5px #000;
+}

@@ -1,16 +1,1 @@
-body {
-  width: 1200px;
-  background-color: ;
-}
-.big {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: beige;
-}
-.box {
-  display: block;
-  width: calc(100% / 5);
 
-  margin: 30px;
-  background-color: aqua;
-}

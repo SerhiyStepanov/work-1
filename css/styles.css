@@ -132,8 +132,8 @@ img {
   content: "";
   display: block;
   margin-right: 20px;
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   background-image: url(../images/truck.svg);
   background-size: contain;
   background-repeat: no-repeat;

@@ -30,8 +30,8 @@ img {
 }
 
 .header-page {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-page .container {
@@ -69,8 +69,8 @@ img {
 }
 
 .box {
-  padding-top: 30px;
-  padding-bottom: 400px;
+  padding-top: 25px;
+  padding-bottom: 500px;
 }
 
 .box .title {
@@ -139,7 +139,11 @@ img {
   background-repeat: no-repeat;
 }
 
-.page-footer {
+.footer-page {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.footer-page .container {
+  border-top: 1px solid #555555;
 }

@@ -112,6 +112,11 @@ img {
   background-color: #2196f3;
 }
 
+.nav .current {
+  color: rgb(255, 255, 255);
+  background-color: #2196f3;
+}
+
 .detail {
   margin-left: 30px;
 }
@@ -128,14 +133,24 @@ img {
   line-height: 1.8;
 }
 
-.detail .list::before {
+.detail .list::after {
   content: "";
   display: block;
-  margin-right: 20px;
+  margin-left: 35px;
   width: 28px;
   height: 28px;
   background-image: url(../images/truck.svg);
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.detail .list::before {
+  content: "";
+  display: block;
+  margin-right: 30px;
+  width: 32px;
+  height: 32px;
+  background-image: url(../images/home3.svg);
   background-repeat: no-repeat;
 }
 

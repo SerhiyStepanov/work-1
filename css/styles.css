@@ -139,12 +139,20 @@ img {
   align-items: center;
 }
 
+.scene {
+  display: flex;
+  align-items: center;
+}
+
 .detail .text {
   display: inline-block;
   margin: 0;
   font-size: 22px;
   font-weight: 700;
   line-height: 1.8;
+
+  transform: translateX();
+  transition: transform 1000ms linear;
 }
 
 .detail .icon-home {
@@ -153,11 +161,9 @@ img {
   height: 32px;
   margin-right: 20px;
   fill: rgb(20, 0, 100);
-}
 
-.scene {
-  display: flex;
-  align-items: center;
+  transform: scale(1);
+  transition: transform 500ms linear, fill 500ms linear;
 }
 
 .icon-truck {
@@ -178,9 +184,11 @@ img {
 
 .scene:hover .icon-home {
   fill: #2196f3;
+  transform: scale(1.2);
 }
 
 .scene:hover .text {
+  transform: translateX(+500px);
   color: red;
 }
 

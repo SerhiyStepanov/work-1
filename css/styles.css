@@ -64,9 +64,17 @@ img {
   margin-left: 30px;
 }
 
+.contact .link {
+  display: inline-block;
+  font-size: 20px;
+
+  transition: color 300ms linear;
+}
+
 .contact .link:hover,
 .contact .link:focus {
   color: #2196f3;
+  font-weight: 400;
 }
 
 .box {
@@ -106,6 +114,8 @@ img {
   font-weight: 700;
   padding: 6px 30px;
   border-radius: 5px;
+
+  transition: background-color 300ms linear, color 300ms linear;
 }
 
 .nav .link:hover,

@@ -184,7 +184,7 @@ img {
 
 .scene:hover .icon-home {
   fill: #2196f3;
-  transform: scale(1.2);
+  transform: scale(0.8);
 }
 
 .scene:hover .text {

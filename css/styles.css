@@ -148,17 +148,40 @@ img {
 }
 
 .detail .icon-home {
+  display: block;
   width: 32px;
   height: 32px;
   margin-right: 20px;
   fill: rgb(20, 0, 100);
 }
 
+.scene {
+  display: flex;
+  align-items: center;
+}
+
 .icon-truck {
+  display: block;
   width: 32px;
   height: 32px;
   margin-left: 25px;
   fill: rgb(20, 0, 100);
+
+  transform: translateX();
+  transition: transform 1000ms linear, fill 500ms linear;
+}
+
+.scene:hover .icon-truck {
+  transform: translateX(+500px);
+  fill: #2196f3;
+}
+
+.scene:hover .icon-home {
+  fill: #2196f3;
+}
+
+.scene:hover .text {
+  color: red;
 }
 
 .footer-page {

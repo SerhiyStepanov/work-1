@@ -140,32 +140,25 @@ img {
 }
 
 .detail .text {
-  display: block;
+  display: inline-block;
   margin: 0;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.8;
 }
 
-.detail .list::after {
-  content: "";
-  display: block;
-  margin-left: 35px;
+.detail .icon-home {
   width: 32px;
   height: 32px;
-  background-image: url(../images/truck.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  margin-right: 20px;
+  fill: rgb(20, 0, 100);
 }
 
-.detail .list::before {
-  content: "";
-  display: block;
-  margin-right: 30px;
+.icon-truck {
   width: 32px;
   height: 32px;
-  background-image: url(../images/home3.svg);
-  background-repeat: no-repeat;
+  margin-left: 25px;
+  fill: rgb(20, 0, 100);
 }
 
 .footer-page {

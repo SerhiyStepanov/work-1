@@ -109,24 +109,24 @@ img {
   margin-bottom: 20px;
 }
 
-.nav {
+.menu {
   display: flex;
   justify-content: center;
   padding-left: 0;
 }
 
-.nav > .list {
+.menu > .list {
   display: block;
   border: 1px solid black;
   border-radius: 5px;
   background-color: rgba(228, 224, 205, 0.5);
 }
 
-.nav .list + .list {
+.menu .list + .list {
   margin-left: 20px;
 }
 
-.nav .link {
+.menu .link {
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -136,15 +136,19 @@ img {
   transition: background-color 300ms linear, color 300ms linear;
 }
 
-.nav .link:hover,
-.nav .link:focus {
+.menu .link:hover,
+.menu .link:focus {
   color: rgb(255, 255, 255);
   background-color: #2196f3;
 }
 
-.nav .current {
+.menu .current {
   color: rgb(255, 255, 255);
   background-color: #2196f3;
+}
+
+.submenu {
+  opacity: 0;
 }
 
 .detail {

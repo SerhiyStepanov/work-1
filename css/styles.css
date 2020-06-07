@@ -201,7 +201,7 @@ img {
   margin-right: 20px;
   fill: rgb(20, 0, 100);
 
-  transform: scale(1);
+  transform: scale(0.8);
   transition: transform 500ms linear, fill 500ms linear;
 }
 
@@ -217,17 +217,17 @@ img {
 }
 
 .scene:hover .icon-truck {
-  transform: translateX(+550px);
+  transform: translateX(560px);
   fill: #2196f3;
 }
 
 .scene:hover .icon-home {
   fill: #2196f3;
-  transform: scale(0.8);
+  transform: scale(1);
 }
 
 .scene:hover .text {
-  transform: translateX(+550px);
+  transform: translateX(+560px);
   color: red;
 }
 

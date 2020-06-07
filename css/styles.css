@@ -191,7 +191,7 @@ img {
   line-height: 1.8;
 
   transform: translateX();
-  transition: transform 1000ms linear;
+  transition: transform 1500ms linear;
 }
 
 .detail .icon-home {
@@ -213,11 +213,11 @@ img {
   fill: rgb(20, 0, 100);
 
   transform: translateX();
-  transition: transform 1000ms linear, fill 500ms linear;
+  transition: transform 1500ms linear, fill 500ms linear;
 }
 
 .scene:hover .icon-truck {
-  transform: translateX(+500px);
+  transform: translateX(+550px);
   fill: #2196f3;
 }
 
@@ -227,7 +227,7 @@ img {
 }
 
 .scene:hover .text {
-  transform: translateX(+500px);
+  transform: translateX(+550px);
   color: red;
 }
 
